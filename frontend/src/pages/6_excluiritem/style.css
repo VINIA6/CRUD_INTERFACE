@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap');
+
+.logon-container {
+    padding: 50px 96px 50px 96px;
+    background: #dcdce0;
+    box-shadow: 0 0 100px #0000001a;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.logon-container .logo{
+    width:170px;
+    height:170px;
+    position: relative;
+    top: -40px;
+    left: -310px;
+}
+
+.logon-container .formulario form input{
+    border-radius: 8px;
+    width: 550px;
+    height: 30px;
+}
+.logon-container .formulario button{
+    width: 180px;
+    height: 60px;
+    background: #e43434;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.3s;
+    margin-right: 20px;
+}
+
+.logon-container .formulario button:hover{
+    filter: brightness(80%);
+}
+
+.logon-container .formulario p{
+    font: 200 13px Roboto, sans-serif;
+}
+
+.logon-container .formulario h1{
+    /* font: 200 13px Roboto, sans-serif; */
+    font: 200 72px Roboto,sans-serif;
+    margin-top: -170px;
+    margin-left: 90px;
+}
+.logon-container .formulario h3{
+    
+    font: 200 30px Roboto,sans-serif;
+    
+}
